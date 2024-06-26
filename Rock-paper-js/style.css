@@ -1,0 +1,67 @@
+
+  body,html{
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+  }
+  p{
+    font-size: 50px;
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+  }
+  .buttons button{
+    margin: 30px;
+    background: black;
+    border: none;
+    cursor: pointer;
+  }
+  .buttons{
+   display: flex;
+   justify-content: center;
+  }
+  .buttons img{
+    background: black;
+    border-radius: 50%;
+    border:5px solid white;
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+  }
+.reset{
+  display: flex;
+  justify-content: center;
+
+}
+.reset button{
+  font-size: 30px;
+  cursor: pointer;
+}
+p{
+  font-size: 20px;
+}
+#move{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: relative;
+  right: 20px;
+}
+#move img{
+  height: 60px;
+  width: 60px; 
+}
+@media  (max-width: 600px) {
+  .buttons button {
+    margin: 10px;
+  }
+  .buttons img {
+    height: 80px;
+    width: 80px;
+    padding: 3px;
+  }
+  .reset button {
+    font-size: 20px;
+  }
+}
